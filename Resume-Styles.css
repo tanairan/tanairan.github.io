@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:200");
+
+html {
+  background-color: white;
+}
+
+header {
+}
+.main {
+}
+
+ul {
+  display: flex;
+  flex-flow: row wrap;
+  float: right;
+  position: sticky;
+  list-style-type: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  padding: 5px;
+  margin-top: 10px;
+  line-height: 100px;
+  align-items: center;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  background-color: #41b3a3;
+  font-family: "Roboto", sans-serif;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+}
+
+ul li a:hover {
+  background-color: rgba(250, 235, 215, 0.7);
+  transition: 0.5s ease;
+  color: #41b3a3;
+}
+
+.fullname {
+  position: absolute;
+  font-family: "Roboto";
+  color: #41b3a3;
+  top: 15%;
+  left: 30%;
+}
+
+.fullname h1 {
+  font-family: "Raleway";
+  color: #41b3a3;
+  transform: scaleX(1.5);
+  font-size: 32px;
+  letter-spacing: 10px;
+}
+
+.bio {
+  top: 30%;
+  position: absolute;
+  left: 20%;
+  right: 10%;
+  background: rgba(250, 235, 215, 0.7);
+  border-radius: 0px;
+  padding: 8px;
+  height: 300px;
+  width: 600px;
+}
+
+.bio h2 {
+  font-family: "Arial";
+  font-weight: lighter;
+  font-size: 10px;
+  justify-content: left;
+  color: #41b3a3;
+  line-height: 300%;
+}
+
+.sidepic {
+  width: 100px;
+  height: 100px;
+  display: block;
+  background-image: url("headshot.jpg");
+  background-size: cover;
+  margin-left: -20px;
+  margin-right: 20px;
+  border-radius: 50%;
+  position: fixed;
+  left: 50px;
+  top: 30%;
+}
